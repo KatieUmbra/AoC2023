@@ -11,6 +11,7 @@ endif()
 
 set(SOURCES
 	src/main.cpp
+	src/logging.cpp
 
 	src/day_1.cpp
 	)

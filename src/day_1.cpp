@@ -13,12 +13,14 @@
 #include <iostream>
 #include <ranges>
 #include <span>
+#include <sstream>
 #include <string>
 #include <string_view>
 #include <unordered_map>
 #include <utility>
 
 #include "advent_days.hpp"
+#include "advent_logging.hpp"
 
 using cstr_t = const char*;
 
@@ -38,7 +40,8 @@ static void puzzle_1()
 		std::string number{numeric_chars.front(), numeric_chars.back()};
 		sum += std::stoi(number);
 	}
-	std::cout << "The sum of all calibration values is: " << sum << '\n';
+	std::string output{std::string{"The sum of all calibration values is: "} + std::to_string(sum)};
+	advent::log(output.c_str(), message_type::RESULT);
 }
 static void find_all(const std::string& str, std::vector<std::pair<std::string_view, std::size_t>>& strings,
 					 const std::string_view& find, std::optional<std::string_view> replace = std::nullopt)
@@ -80,14 +83,16 @@ static void puzzle_2()
 		std::string number{back_num + front_num};
 		sum += std::stoi(number);
 	}
-	std::cout << "The sum of all calibration values, including typed values, is: " << sum << '\n';
+	std::string output{std::string("The sum of all calibration values, include typed values, is: ") +
+					   std::to_string(sum)};
+	advent::log(output.c_str(), message_type::RESULT);
 }
 void day_1()
 {
-	std::cout << "Advent Of Code, Day 1" << '\n';
-	std::cout << "Puzzle 1:" << '\n';
+	advent::log("Advent Of Code, Day 1", message_type::DAY);
+	advent::log("Puzzle 1", message_type::PUZZLE);
 	puzzle_1();
-	std::cout << "Puzzle 2:" << '\n';
+	advent::log("Puzzle 2", message_type::PUZZLE);
 	puzzle_2();
 }
 } // namespace advent
