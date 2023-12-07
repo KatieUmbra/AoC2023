@@ -1,6 +1,6 @@
 # Advent of code year 2023
 By Katherine, [AOC23](https://adventofcode.com/2023)
-
+zsh:1: command not found: 0000
 ## How to run
 
 ### Requirements
@@ -49,7 +49,7 @@ Puzzle 2:
 
 1 **
 2 **
-3
+3 *
 4
 5
 6
