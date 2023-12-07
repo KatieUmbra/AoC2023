@@ -12,4 +12,5 @@ namespace advent
 {
 void day_1();
 void day_2();
+void day_3();
 } // namespace advent

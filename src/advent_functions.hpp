@@ -13,7 +13,7 @@
 
 namespace advent
 {
-inline std::byte day{2};
+inline std::byte day{3};
 inline std::array<void (*)(), 31> advent_functions{};
 void register_functions();
 } // namespace advent

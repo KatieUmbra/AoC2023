@@ -24,6 +24,7 @@ void advent::register_functions()
 {
 	advent::advent_functions[0] = advent::day_1;
 	advent::advent_functions[1] = advent::day_2;
+	advent::advent_functions[2] = advent::day_3;
 }
 
 auto main(int argc, char const* argv[]) -> int

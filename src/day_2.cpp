@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "advent_logging.hpp"
-#include <__algorithm/ranges_sort.h>
 #include <algorithm>
 #include <array>
 #include <cstdint>
