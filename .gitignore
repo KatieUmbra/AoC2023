@@ -3,4 +3,5 @@ compile_commands.json
 .clang-format
 .cache
 inputs/*
+log.txt
 gmon.out
