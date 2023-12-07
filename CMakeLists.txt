@@ -14,6 +14,7 @@ set(SOURCES
 	src/logging.cpp
 
 	src/day_1.cpp
+	src/day_2.cpp
 	)
 
 add_compile_options("$<$<CONFIG:DEBUG>:-DDEBUG>")
