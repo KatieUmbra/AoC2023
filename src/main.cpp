@@ -55,6 +55,8 @@ auto main(int argc, char const* argv[]) -> int
 		std::cerr << "Day " << result << " has not ocurred yet, stay tuned for updates!" << '\n';
 		std::terminate();
 	}
+	std::cout << "-->     Katherine's AoC2023 Solution!     <--" << '\n';
+	std::cout << "--> https://github.com/KatieUmbra/AoC2023 <--" << '\n';
 	advent::register_functions();
 	advent::advent_functions[result - 1]();
 }
