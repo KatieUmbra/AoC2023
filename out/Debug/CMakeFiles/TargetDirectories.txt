@@ -1,0 +1,3 @@
+/home/Kathy/Development/AoC2023/out/Debug/CMakeFiles/aoc.dir
+/home/Kathy/Development/AoC2023/out/Debug/CMakeFiles/edit_cache.dir
+/home/Kathy/Development/AoC2023/out/Debug/CMakeFiles/rebuild_cache.dir

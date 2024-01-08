@@ -8,7 +8,6 @@
 
 #include "advent_days.hpp"
 #include "advent_logging.hpp"
-#include <__ranges/transform_view.h>
 #include <array>
 #include <cctype>
 #include <charconv>

@@ -1,6 +1,8 @@
 # Advent of code year 2023
 By Katherine, [AOC23](https://adventofcode.com/2023)
-zsh:1: command not found: 0000
+
+## THIS PROJECT COULD NOT BE COMPLETED DUE TO TECHNICAL ISSUES.
+
 ## How to run
 
 ### Requirements
