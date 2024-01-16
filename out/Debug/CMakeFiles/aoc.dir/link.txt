@@ -1,1 +1,0 @@
-/usr/bin/clang++  --stdlib=libc++ -g CMakeFiles/aoc.dir/src/main.cpp.o CMakeFiles/aoc.dir/src/logging.cpp.o CMakeFiles/aoc.dir/src/day_1.cpp.o CMakeFiles/aoc.dir/src/day_2.cpp.o CMakeFiles/aoc.dir/src/day_3.cpp.o -o aoc 
