@@ -27,7 +27,7 @@ I'm doing this project on Artix 6.6.2 but it should work on any other OS
 
 ### Building
 
-- Run `cmake -B build`, make generator works, but `Ninja` is preferred `cmake -B build -G Ninja`, alterinatively use Visual Studio if you're on windows (should work with mingw aswell) `cmake -B build -G "Visual Studio 17 2022"`
+- Run `cmake -B build`, `Make` generator works, but `Ninja` is preferred `cmake -B build -G Ninja`, alternatively use Visual Studio if you're on windows (should work with mingw aswell) `cmake -B build -G "Visual Studio 17 2022"`
 - Run `cmake --build build` to compile the exectuable
 - Run a puzzle by running `./build/aoc {NUMBER OF THE DAY}`
 
